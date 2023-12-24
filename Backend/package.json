@@ -1,6 +1,9 @@
 {
   "type": "module",
   "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
     "inquirer": "^9.2.7",
     "qr-image": "^3.2.0"
   },
@@ -8,9 +11,9 @@
   "version": "1.0.0",
   "description": "QR code generator project.",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
   },
   "author": "Anurag Singh",
   "license": "ISC"
